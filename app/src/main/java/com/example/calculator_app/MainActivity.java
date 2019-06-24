@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
         percentSeekBar.setOnSeekBarChangeListener(seekBarListener);
 
 
-
-    };
+    }
 
     private void calculate(){
         percentTextView.setText(percentFormat.format(percent));
